@@ -1,0 +1,150 @@
+{
+  "add": {
+    "type": "R",
+    "opName": "add"
+  },
+  "mul": {
+    "type": "R",
+    "opName": "multiply"
+  },
+  "lw": {
+    "type": "I",
+    "opName": "load word",
+    "opcode": "000011",
+    "funct3": "010"
+  },
+  "addi": {
+    "type": "I",
+    "opName": "add immediate",
+    "opcode": "0010011",
+    "funct3": "000"
+  },
+  "sw": {
+    "type": "S",
+    "opName": "store word"
+  },
+  "mv": {
+    "type": "PSEUDOINSTRUCTION??",
+    "opName": "move"
+  },
+  "jr": {
+    "type": "PSEUDOINSTRUCTION",
+    "opName": "jump register",
+  },
+  "s0": {
+    "register": "x8",
+    "binary": "01000"
+  },
+  "s1": {
+    "register": "x9",
+    "binary": "01001"
+  },
+  "s2": {
+    "register": "x18",
+    "binary": "10010"
+  },
+  "s3": {
+    "register": "x19",
+    "binary": "10011"
+  },
+  "s4": {
+    "register": "x20",
+    "binary": "10100"
+  },
+  "s5": {
+    "register": "x21",
+    "binary": "01001"
+  },
+  "s6": {
+    "register": "x22",
+    "binary": "10010"
+  },
+  "s7": {
+    "register": "x23",
+    "binary": "10011"
+  },
+  "s8": {
+    "register": "x24",
+    "binary": "10100"
+  },
+  "s9": {
+    "register": "x25",
+    "binary": "10010"
+  },
+  "s10": {
+    "register": "x26",
+    "binary": "10011"
+  },
+  "s11": {
+    "register": "x27",
+    "binary": "10100"
+  },
+  "t0": {
+    "register": "x5",
+    "binary": "00101"
+  },
+  "t1": {
+    "register": "x6",
+    "binary": "00110"
+  },
+  "t2": {
+    "register": "x7",
+    "binary": "00111"
+  },
+  "t3": {
+    "register": "x28",
+    "binary": "11100"
+  },
+  "t4": {
+    "register": "x29",
+    "binary": "11101"
+  },
+  "t5": {
+    "register": "x30",
+    "binary": "11110"
+  },
+  "t6": {
+    "register": "x31",
+    "binary": "11111"
+  },
+  "a0": {
+    "register": "x10",
+    "binary": "01010"
+  },
+  "a1": {
+    "register": "x11",
+    "binary": "01011"
+  },
+  "a2": {
+    "register": "x12",
+    "binary": "01100"
+  },
+  "a3": {
+    "register": "x13",
+    "binary": "01101"
+  },
+  "a4": {
+    "register": "x14",
+    "binary": "01110"
+  },
+  "a5": {
+    "register": "x15",
+    "binary": "01111"
+  },
+  "a6": {
+    "register": "x16",
+    "binary": "10000"
+  },
+  "a7": {
+    "register": "x17",
+    "binary": "10001"
+  },
+  "x0": {
+    "register": "x0",
+    "binary": "00000"
+  },
+  "sp": {
+    "register": "x2",
+    "binary": "00010"
+  }
+}
